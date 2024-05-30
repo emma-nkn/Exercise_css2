@@ -1,0 +1,80 @@
+/*intialisation css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(images/ar_02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.boxlogin {
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 5px;
+}
+.contenantlogo {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(125, 255, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle img{
+    width: 110px;
+}
+.contenantinput{
+    height: 50%;
+    padding: 10px;
+    margin-top: 60px;
+}
+form input{
+    display: block;
+    margin: 20px auto;
+    outline: 0;
+    background: rgb(197, 253, 175);
+    width: 90%;
+    border: 0;
+    padding: 12px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+form button {
+    display: block;
+    margin: 20px auto;
+    outline: 0;
+    background: rgb(125, 255, 73);
+    border: 0;
+    width: 90%;
+    padding: 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.textfin {
+    text-align: center;
+
+}
+.textfin a{
+    color: blue;
+    font-size: 10px;
+    text-decoration: none;
+}
